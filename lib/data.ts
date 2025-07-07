@@ -36,37 +36,13 @@ export const links = [
 ] as const;
 
 export const experiencesData = [
-    /*{
-        title: "Graduated bootcamp",
-        location: "Miami, FL",
-        description:
-            "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-        icon: React.createElement(LuGraduationCap),
-        date: "2019",
-    },
-    {
-        title: "Front-End Developer",
-        location: "Orlando, FL",
-        description:
-            "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-        icon: React.createElement(CgWorkAlt),
-        date: "2019 - 2021",
-    },
-    {
-        title: "Full-Stack Developer",
-        location: "Houston, TX",
-        description:
-            "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-        icon: React.createElement(FaReact),
-        date: "2021 - present",
-    },*/
     {
         title: "Tech Support I",
         location: "Anchorage, AK",
         description:
             "I worked as a Field Services Technician providing tech support to school staff at several locations in person or remotely. I started learning more programming on my own time.",
         icon: React.createElement(CgWorkAlt),
-        date: "2018 - 2020",
+        date: "2019 - 2020",
     },
     {
         title: "Tech Support II",
@@ -80,7 +56,7 @@ export const experiencesData = [
         title: "Programmer Analyst",
         location: "Anchorage, AK",
         description:
-            "I perform more technical and specialized work in the design, development, maintenance, and improvement of Student Information Systems. I work with SSMS and MySQL for data querying and data modification. I started putting into practice my knowledge of software development with personal projects.",
+            "I perform more technical and specialized work in the design, development, maintenance, and improvement of Student Information Systems. I work with SSMS and SQL Server for data querying and data modification. I started putting into practice my knowledge of software development with personal projects.",
         icon: React.createElement(FaReact),
         date: "2022 - Present",
     },
@@ -136,7 +112,7 @@ export const projectsData = [
     {
         title: "News App",
         description:
-            "Simple news app with offline save functionality.",
+            "Simple news app with offline save functionality. This app has not been deployed to any app store.",
         tags: ["Flutter", "Dart"],
         imageUrl: newsApp,
     },
@@ -162,7 +138,8 @@ export const skillsData = [
     "Prisma",
     "MongoDB",
     "Supabase",
-    "MySQL",
+    "Convex DB",
+    "SQL Server",
     "Python",
     "Django",
     "Framer Motion",

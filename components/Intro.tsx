@@ -61,11 +61,11 @@ const Intro = () => {
             >
                 <span className="font-bold">Hello, I&apos;m Raziel.</span> I&apos;m a{" "}
                 <span className="font-bold"> self-taught programmer </span> with{" "}
-                <span className="font-bold">2 years</span> of experience. I
-                enjoy building <span className="italic">sites & apps</span>. My
-                focus is{" "}
+                <span className="font-bold">5 years</span> of experience. I
+                enjoy building <span className="italic">websites, cli apps, & mobile apps</span>. My tech
+                stack is{" "}
                 <span className="underline">
-                    React (Next.js) for web and Flutter for mobile apps.
+                    React (Next.js) and Typescript for web, Go and Charm Bubble Tea for cli apps, and Flutter for mobile apps.
                 </span>
             </motion.h1>
 
@@ -88,10 +88,10 @@ const Intro = () => {
                 </Link>
                 <a
                     className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-                    href="/CV.pdf"
+                    href="/Resume.pdf"
                     download
                 >
-                    Download CV{" "}
+                    Resume{" "}
                     <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
                 </a>
                 <a
