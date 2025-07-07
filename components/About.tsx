@@ -17,33 +17,29 @@ const About = () => {
             id="about"
         >
             <SectionHeading>About Me</SectionHeading>
-            <p className="mb-3">
+            <div className="w-full">
+            <p className="mb-3 text-justify">
                 After graduating with a degree in{" "}
                 <span className="font-medium">Physics</span>, I decided to
                 pursue my passion for programming. I started learing{" "}
                 <span className="font-medium">full-stack web development</span>{" "}
-                and Flutter mobile apps.{" "}
+                and mobile apps.{" "}
                 <span className="italic">My favorite part of programming</span>{" "}
                 is the problem-solving aspect. I{" "}
                 <span className="underline">love</span> the feeling of finally
-                figuring out a solution to a problem. My core stack is{" "}
+                figuring out a solution to a problem. My tech
+                stack is{" "}
                 <span className="font-medium">
-                    React, Next.js, Node.js, MongoDB, and Flutter
-                </span>
-                . I am also familiar with TypeScript, Tailwind CSS, Prisma, and
-                Go. I am always looking to learn new technologies. I am
-                currently looking for a{" "}
-                <span className="font-medium">full-time position</span> as a
-                software developer.
+                    React, Next.js, and Typescript for web development, Go for backend development and cli apps, and Flutter for mobile apps.
+                </span>{" "}
+                I am also familiar with different database relational and non-relational databases like MongoDB, Convex DB, SQL Server, and SQLite. I am always looking to learn new technologies.
             </p>
-
-            <p>
+            <p className="text-justify">
                 <span className="italic">When I&apos;m not coding</span>, I enjoy
                 working out, playing video games, watching movies, mountain
-                biking, and playing sports. I also enjoy{" "}
-                <span className="font-medium">learning new things</span>. I&apos;m
-                also learning cross-country skiing.
+                biking, and playing sports. More recently I spend most of my time with my family after becoming a father last year. 
             </p>
+            </div>
         </motion.section>
     );
 };
