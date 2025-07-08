@@ -77,6 +77,7 @@ export const projectsData = [
             "NextAuth.js",
         ],
         imageUrl: myflix,
+        url: "https://myflix-mauve.vercel.app/",
     },
     {
         title: "Bluejay",
@@ -92,6 +93,7 @@ export const projectsData = [
             "NextAuth.js",
         ],
         imageUrl: bluejay,
+        url: "https://bluejay-three.vercel.app/",
     },
     {
         title: "MyAuth",
@@ -108,6 +110,7 @@ export const projectsData = [
             "Resend",
         ],
         imageUrl: myauth,
+        url: "https://myauthjs.vercel.app/",
     },
     {
         title: "News App",
@@ -115,6 +118,7 @@ export const projectsData = [
             "Simple news app with offline save functionality. This app has not been deployed to any app store.",
         tags: ["Flutter", "Dart"],
         imageUrl: newsApp,
+        url: "",
     },
     {
         title: "Gemini Chat App",
@@ -122,6 +126,7 @@ export const projectsData = [
             "Simple real-time chatbot app feautring Google AI Dart SDK. Front-end developed with Flutter and back-end developed with Dart Frog. This app has not been deployed to any app store.",
         tags: ["Flutter", "Dart Frog", "Dart"],
         imageUrl: gemini,
+        url: "",
     },
 ] as const;
 
