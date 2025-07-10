@@ -18,7 +18,7 @@ const About = () => {
         >
             <SectionHeading>About Me</SectionHeading>
             <div className="w-full">
-            <p className="mb-3 text-justify">
+            <p className="mb-3">
                 After graduating with a degree in{" "}
                 <span className="font-medium">Physics</span>, I decided to
                 pursue my passion for programming. I started learing{" "}
@@ -34,7 +34,7 @@ const About = () => {
                 </span>{" "}
                 I am also familiar with different database relational and non-relational databases like MongoDB, Convex DB, SQL Server, and SQLite. I am always looking to learn new technologies.
             </p>
-            <p className="text-justify">
+            <p>
                 <span className="italic">When I&apos;m not coding</span>, I enjoy
                 working out, playing video games, watching movies, mountain
                 biking, and playing sports. More recently I spend most of my time with my family after becoming a father last year. 

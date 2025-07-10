@@ -7,6 +7,8 @@ import myflix from "@/public/myflix.png";
 import myauth from "@/public/myauth.png";
 import gemini from "@/public/gemini.png";
 import newsApp from "@/public/news_app.png";
+import kanban from "@/public/go-kanban.png";
+import slackzz from "@/public/Slackzz.png";
 
 export const links = [
     {
@@ -64,6 +66,21 @@ export const experiencesData = [
 
 export const projectsData = [
     {
+        title: "Slackzz",
+        description:
+            "Slack responsive web app clone with authentication, channels, direct conversations, threads, reactions, and role based access control",
+        tags: [
+            "React",
+            "TypeScript",
+            "Next.js",
+            "Convex DB",
+            "Tailwind",
+            "Auth.js"
+        ],
+        imageUrl: slackzz,
+        url: "https://slackzz-drab.vercel.app/",
+    },
+    {
         title: "Myflix",
         description:
             "Netflix UI responsive wep app clone with authentication and favorites list.",
@@ -113,6 +130,18 @@ export const projectsData = [
         url: "https://myauthjs.vercel.app/",
     },
     {
+        title: "go-kanban",
+        description:
+            "A simple cli Kanban board application built with Go, Bubble Tea, and Lip Gloss. Organize your tasks in a To Do, In Progress, and Done dashboard directly from your terminal.",
+        tags: [
+            "Go",
+            "Bubble Tea",
+            "Lip Gloss",
+        ],
+        imageUrl: kanban,
+        url: "",
+    },
+    {
         title: "News App",
         description:
             "Simple news app with offline save functionality. This app has not been deployed to any app store.",
@@ -147,11 +176,11 @@ export const skillsData = [
     "Convex DB",
     "SQL Server",
     "T-SQL",
+    "Go",
     "Python",
     "Django",
     "Framer Motion",
     "Flutter",
     "Dart",
     "Dart Frog",
-    "Go",
 ] as const;
